@@ -1,0 +1,33 @@
+
+
+ -> include <stdio.h>         1.  stack  2.   NO
+ -> include <stdlib.h>        1.  stack  2.   NO
+ ->include <malloc.h>         1.  stack  2.   NO
+ ->int main() {               1.  stack  2.   NO
+
+ ->	int num;              1.  stack  2.   NO
+
+ ->	int *ptr;             1.  stack  2.   NO
+
+ ->	int **handle;         1.  stack  2.   NO
+
+ ->	num = 14;             1.  stack  2.   NO
+
+ ->	ptr = (int *)malloc(2 * sizeof(int)); 1. stack and heap 2. memory allocated but not freed
+
+ ->	handle = &ptr;         1.  stack  2.  NO
+
+ ->	*ptr = num;            1.storing 14 to the heap 2. No
+ ->	ptr = &num; //stack/
+ ->	handle = (int **)malloc(1 * sizeof(int **)); 1. stack and heap 2. memory allocated      
+                                                                          but not freed
+
+
+}
+
+3.  The memory is allocated in the heap whenever "malloc" is used in the statements.
+
+4. Yes, there is memory leak since the memory has not been freed after use.
+
+         ptr = (int *)malloc(2 * sizeof(int));
+         handle = (int **)malloc(1 * sizeof(int **));

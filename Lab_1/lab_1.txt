@@ -1,0 +1,16 @@
+Cse 31
+
+Q1.   -c Compiles or assembles the source files without linking.
+Q2.  -o Place output in file. 
+Q3.  “gdb./output0” will load output0 into gdb
+Q4.  “b main” will set the breakpoint at main
+Q5. “r”  will run output0 inside gdb
+Q6. “s” will do single-step through the program. 
+Q7. The size of an unsigned int is 2^31.
+Q8. The size of a long long int is 2^64.
+Q9. Yes, it it.
+Q10.   -2147483648 — The largest negative signed is 10000000 00000000 00000000 00000000, if we negate this it will be 01111111 11111111 11111111 11111111, adding one to it will give us, 10000000 00000000 00000000 00000000, which is exactly the same as the largest negative singed int.  Therefore, we can use it as both positive and negative number. 
+
+Colaborators:
+Izza
+Wa

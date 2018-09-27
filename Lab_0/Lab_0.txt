@@ -1,0 +1,9 @@
+Logic Check
+
+1. gcc main.c -o cselab
+2. Compiler compiles the file but does not execute it
+3. “//” is what we put to write a comment. For example: //prints out the line
+
+Collaborators
+
+Hoa Nguyen

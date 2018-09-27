@@ -1,0 +1,71 @@
+Q1.  How do you run a program in gdb?
+
+gdb <executable>
+
+"run"
+
+Q2.  How do you pass command line arguments to a program when using gdb?
+
+"run(arguments)"
+
+Q3.  How do you set a breakpoint in a program?
+
+b <[file]lineNumber> 
+
+"break" 
+
+Q4.  How do you set a breakpoint which only occurs when a set of conditions is true (some variables have a certain value)?
+
+break if (expression )
+
+b <[file]lineNumber> if <condition>
+
+Q5.  How do you execute the next line of C code in the program after a break?
+
+"Next"
+
+ Q6.  If the next line is a function call, you'll execute the call in one step. How do you execute the C code, line by line, inside the function call? 
+
+"step" to run step by step into the function, "n" to go line by line
+
+Q7.  How do you continue running the program after breaking? 
+
+"continue"
+
+Q8.  How can you see the value of a variable?
+
+"print(expression)" or p[stuff]
+
+Q9.  How do you configure gdb so it prints the value of a variable after every step?
+
+"display [/f] expression"
+
+Q10.  How do you print a list of all variables and their values in the current function? 
+
+"Info locals" or "display" 
+
+Q11.  How do you exit out of gdb?
+
+"q"
+
+Q12.  What is the bug causing append to not work correctly?
+
+Each char array has a null char at the end of a string which is not specified in the append function before returning s1.
+
+
+Q13.  What line caused the segmentation fault?
+
+Line 15
+
+Q14.  How do you fix the line so it works properly? 
+
+You refer to the address of sum instead of the value when passing it
+
+Q15.  What is the bug?  How do you fix it? 
+
+input is not referenced. You reference the input. Ex: "input" to "&input"
+
+Collaborator
+Wa
+Leo
+

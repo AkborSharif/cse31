@@ -1,0 +1,9 @@
+Q1.   strcat() is directly writing data after the source string allocated memory. 
+
+Q2.   Give a size to the char array that can contain the whole string and also add "%s"     
+      when printing out the string.
+Q3.  gdb executable to run
+      C does not provide the same kind of bounds-checking on arrays that Java does it is   
+      less overhead, gives more freedom for the programmer. 
+Q4.  having the overhead library helps prevent issues with memory management,   
+      but it takes space and may lower the performance

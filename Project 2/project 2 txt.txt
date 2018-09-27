@@ -1,0 +1,151 @@
+
+
+
+Test1
+
+Enter size of list (between 1 and 25): **** user input : 5
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 5
+Enter one list element: 
+**** user input : 2
+Enter one list element: 
+**** user input : 3
+Enter one list element: 
+**** user input : 2
+Content of original list: 4 5 2 3 2 
+Content of sorted list: 2 2 3 4 5 
+Enter a key to search for: **** user input : 4
+Key found!
+-- program is finished running --
+
+****************************************************
+Test2
+
+Enter size of list (between 1 and 25): **** user input : 6
+Enter one list element: 
+**** user input : 1
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 2
+Enter one list element: 
+**** user input : 6
+Enter one list element: 
+**** user input : 7
+Enter one list element: 
+**** user input : 3
+Content of original list: 1 4 2 6 7 3 
+Content of sorted list: 1 2 3 4 6 7 
+Enter a key to search for: **** user input : 9
+Key not found!
+-- program is finished running --
+
+****************************************************
+Test3
+
+Enter size of list (between 1 and 25): **** user input : 7
+Enter one list element: 
+**** user input : 1
+Enter one list element: 
+**** user input : 2
+Enter one list element: 
+**** user input : 3
+Enter one list element: 
+**** user input : 8
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 6
+Enter one list element: 
+**** user input : 5
+Content of original list: 1 2 3 8 4 6 5 
+Content of sorted list: 1 2 3 4 5 6 8 
+Enter a key to search for: **** user input : 3
+Key found!
+-- program is finished running --
+
+
+****************************************************
+Test4
+
+Enter size of list (between 1 and 25): **** user input : 20
+Enter one list element: 
+**** user input : 9
+Enter one list element: 
+**** user input : 8
+Enter one list element: 
+**** user input : 7
+Enter one list element: 
+**** user input : 6
+Enter one list element: 
+**** user input : 5
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 3
+Enter one list element: 
+**** user input : 2
+Enter one list element: 
+**** user input : 12
+Enter one list element: 
+**** user input : 34
+Enter one list element: 
+**** user input : 45
+Enter one list element: 
+**** user input : 3
+Enter one list element: 
+**** user input : 6
+Enter one list element: 
+**** user input : 5
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 5
+Enter one list element: 
+**** user input : 6
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 2
+Enter one list element: 
+**** user input : 8
+Content of original list: 9 8 7 6 5 4 3 2 12 34 45 3 6 5 4 5 6 4 2 8 
+Content of sorted list: 2 2 3 3 4 4 4 5 5 5 6 6 6 7 8 8 9 12 34 45 
+Enter a key to search for: **** user input : 7
+Key found!
+-- program is finished running --
+
+
+****************************************************
+Test5
+
+Enter size of list (between 1 and 25): **** user input : 10
+Enter one list element: 
+**** user input : 7
+Enter one list element: 
+**** user input : 3
+Enter one list element: 
+**** user input : 5
+Enter one list element: 
+**** user input : 8
+Enter one list element: 
+**** user input : 2
+Enter one list element: 
+**** user input : 9
+Enter one list element: 
+**** user input : 1
+Enter one list element: 
+**** user input : 6
+Enter one list element: 
+**** user input : 4
+Enter one list element: 
+**** user input : 10
+Content of original list: 7 3 5 8 2 9 1 6 4 10 
+Content of sorted list: 1 2 3 4 5 6 7 8 9 10 
+Enter a key to search for: **** user input : 11
+Key not found!
+-- program is finished running --
+
+
